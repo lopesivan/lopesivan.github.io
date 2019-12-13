@@ -1,0 +1,30 @@
+I"�<p>A reconstrução 3D é um problema antigo e mal colocado, que tem sido explorado
+há décadas pela visão computacional,computação gráfica e comunidades de
+aprendizado de máquina. Desde 2015, a reconstrução 3D com base em imagem
+usando sistemas neurais convolucionaisredes (CNN) atraiu um interesse
+crescente e demonstrou um desempenho impressionante. Dada esta nova era de
+rápida evolução,Este artigo fornece uma pesquisa abrangente dos
+desenvolvimentos recentes nesse campo. Focamos nos trabalhos que usam
+aprendizado profundo técnicas para estimar a forma 3D de objetos genéricos a
+partir de uma única ou várias imagens RGB. Organizamos a literatura com base
+nas representações de forma, nas arquiteturas de rede e nos mecanismos de
+treinamento que eles usam. Embora esta pesquisa se destine a métodos que
+reconstroem objetos genéricos, também revisamos alguns dos trabalhos recentes
+que se concentram em classes de objetos específicas, como formas e rostos do
+corpo humano. Fornecemos uma análise e comparação do desempenho de alguns
+documentos principais, resumimos alguns dos problemas em aberto nesse campo e
+discutir direções promissoras para pesquisas futuras.</p>
+
+<p>Ivan Jekyll also offers powerful support for code snippets:</p>
+
+<p>Ivan Jekyll also offers powerful support for code snippets:</p>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="k">def</span> <span class="nf">print_hi</span><span class="p">(</span><span class="nb">name</span><span class="p">)</span>
+  <span class="nb">puts</span> <span class="s2">"Hi, </span><span class="si">#{</span><span class="nb">name</span><span class="si">}</span><span class="s2">"</span>
+<span class="k">end</span>
+<span class="n">print_hi</span><span class="p">(</span><span class="s1">'Tom'</span><span class="p">)</span>
+<span class="c1">#=&gt; prints 'Hi, Tom' to STDOUT.</span></code></pre></figure>
+
+<p>Check out the <a href="http://jekyllrb.com/docs/home">Jekyll docs</a> for more info on how to get the most out of Jekyll. File all bugs/feature requests at <a href="https://github.com/jekyll/jekyll">Jekyll’s GitHub repo</a>. If you have questions, you can ask them on <a href="https://talk.jekyllrb.com/">Jekyll Talk</a>.</p>
+
+:ET
