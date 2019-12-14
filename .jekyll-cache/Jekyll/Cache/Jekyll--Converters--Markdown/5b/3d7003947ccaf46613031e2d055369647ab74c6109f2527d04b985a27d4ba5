@@ -1,0 +1,153 @@
+I"�<div>
+   Artigo usado na apresentação: <a href="docs/1906.06543.pdf">Image-based 3D Object Reconstruction: State-of-the-Art and Trends in the Deep Learning Era.</a>
+</div>
+
+<div>
+   Slide baseado no artigo proposto: <a href="docs/slide.pdf">Reconstrução de objetos 3D baseados em imagem.</a>
+</div>
+
+<hr />
+
+<h2 id="abstract">Abstract</h2>
+
+<p>A reconstrução 3D é um problema antigo e mal colocado, que tem
+sido explorado há décadas pela visão computacional, computação
+gráfica e comunidades de aprendizado de máquina. Desde 2015, a
+reconstrução 3D com base em imagem usando sistemas neurais
+convolucionaisredes (CNN) atraiu um interesse crescente e
+demonstrou um desempenho impressionante. Dada esta nova era de
+rápida evolução, este artigo fornece uma pesquisa abrangente dos
+desenvolvimentos recentes nesse campo. Focando nos trabalhos que
+usam aprendizado profundo e técnicas para estimar a forma 3D de
+objetos genéricos a partir de uma única ou várias imagens RGB.</p>
+
+<p>Organizamos a literatura com base nas representações de forma,
+nas arquiteturas de rede e nos mecanismos de treinamento que que
+são usados. Embora esta pesquisa se destine a métodos que
+reconstroem objetos genéricos, também é revisado alguns dos
+trabalhos recentes que se concentram em classes de objetos
+específicas, como formas e rostos humanos. É fornecido uma
+análise e comparação do desempenho de alguns documentos
+principais, resumindo-se alguns dos problemas em aberto nesse
+campo e propondo direções promissoras para pesquisas futuras.</p>
+
+<figure>
+   <a href="/paper/presentation/2019/11/21/imgs/3d_bounding_box_estimation_using_deep_learning_and_geometry.png">
+   <img src="imgs/3d_bounding_box_estimation_using_deep_learning_and_geometry.png" style="max-width: 80%;" alt="3d_bounding_box_estimation_using_deep_learning_and_geometry.png" />
+   </a>
+   <figcaption>Estimativa de caixas delimitadoras 3D usando aprendizado profundo e geometria</figcaption>
+</figure>
+
+<h2 id="introdução">INTRODUÇÃO</h2>
+
+<p>O objetivo da reconstrução 3D baseada em imagem é inferir a
+geometria e estrutura de objetos e cenas partindo de um ou
+várias imagens 2D. Este problema de longa data que é mal
+posicionado é fundamental para muitas aplicações, como navegação
+por robô, reconhecimento de objetos e compreensão de cenas,
+modelagem 3D e animação, controle industrial e diagnóstico
+médico.</p>
+
+<p>A recuperação da dimensão perdida a partir de apenas imagens 2D
+foi o objetivo do estéreo multivista clássico e do formato
+Métodos X, que foram extensivamente investigados por muitas
+décadas.  A primeira geração de métodos abordava o problema da
+perspectiva geométrica; eles focaram na compreensão e
+formalização, matematicamente, do 3D ao processo de projeção 2D,
+com o objetivo de elaborar soluções técnicas ou algorítmicas
+para obtenção do mecanismo inverso.</p>
+
+<h2 id="a-evolução-dos-métodos-de-reconstrução-3d">A evolução dos métodos de reconstrução 3D</h2>
+
+<p>Soluções eficazes geralmente exigem várias imagens, capturadas a
+partir de câmeras calibradas com precisão. Baseando-se em
+técnicas de estéreo, por exemplo, exigem como recursos
+correspondentes imagens capturadas de ângulos de visão
+ligeiramente diferentes e que se use o princípio da triangulação
+para recuperar a coordenação 3D diante dos pixels da imagem.</p>
+
+<p>Formam-se a partir da silhueta ou forma pelo espaço escultural,
+métodos que requerem segmentação precisa das silhuetas 2D. Esses
+métodos, que levaram a razões reconstruções 3D de qualidade
+aceitável, exigem várias imagens de o mesmo objeto capturado por
+câmeras bem calibradas. Este,no entanto, pode não ser prático ou
+viável em muitas situações devido ao alto custo computacional.</p>
+
+<p>Curiosamente, os seres humanos são bons em resolver esses
+problemas problemas inversos, aproveitando-se  de algum conhecimento
+prévio. Eles podem inferir o tamanho aproximado e a geometria
+aproximada dos objetos usando apenas um olho. Eles podem até
+adivinhar o que seria partindo de outro ponto de vista. Nós
+podemos fazer isso porque todos os objetos e cenas vistos
+anteriormente nos permitiram construir conhecimento prévio e
+desenvolver modelos mentais de como são os objetos.</p>
+
+<p>A segunda geração de métodos de construção 3D tentou
+usar esse conhecimento prévio e reformular formular o problema de
+reconstrução 3D com reconhecimento problema. O caminho das
+técnicas de aprendizado profundo são muito mais importantes, pois
+a crescente disponibilidade de grandes dados de treinamento em
+conjunto, levar a uma nova geração de métodos capazes de
+recuperar a geometria 3D e a estrutura dos objetos de um ou
+múltiplas imagens RGB sem a complexidade da câmera e processo de
+separação e filtragem. Apesar de recentes, esses métodos têm demonstrado
+resultados emocionantes e promissores em várias tarefas
+relacionadas à visão computacional e processamento de imagem.</p>
+
+<figure>
+   <a href="/paper/presentation/2019/11/21/imgs/a-square-net-min.jpg">
+   <img src="imgs/a-square-net-min.jpg" style="max-width: 80%;" alt="a-square-net-min.jpg" />
+   </a>
+   <figcaption>Modelo avançado de predição de forma com múltiplas redes</figcaption>
+</figure>
+
+<h2 id="comparação-de-métodos-de-construção">Comparação de métodos de construção</h2>
+
+<figure>
+   <a href="/paper/presentation/2019/11/21/imgs/Core55.png">
+   <img src="imgs/Core55.png" style="max-width: 100%;" alt="Core55.png" />
+   </a>
+   <figcaption>Estimativa e raqueamento de métodos de reconstrução 3D por modelo de rede</figcaption>
+</figure>
+
+<h2 id="bibliografia">Bibliografia</h2>
+
+<p>Uma vasta <a href="https://raw.githubusercontent.com/lopesivan/impa-2019-11-21/master/referencias.bib">bibliografia</a> foi utilizada para
+realização deste trabalho e assim sendo é necessário fazer duas
+menções honrosas, sendo a primeira destinada ao pesquisador
+<a href="http://lvelho.impa.br">Luiz Velho</a> cujo profissionalismo e trabalho inspiram a
+todos que iforam seus alunos ou leitores de seus seus livros e
+textos, e a segunda menção é ao Lucuino da Fontoura Costa que no
+trabalho <em>Gauss’ law in image processing and analysis via fast
+numerical calculation of vector fields</em> publicado em 1999
+aprensentou estudos deterministicos de cálculo de campos
+vetorias e predição de formas.</p>
+
+<h2 id="imateriais-adicionais">iMateriais adicionais</h2>
+
+<p>Abaixo, mais alguns links para download dos arquivos em formato
+pdf da apresentação e do paper discutido.</p>
+
+<figure>
+   <a href="https://github.com/lopesivan/impa-2019-11-21/raw/master/1906.06543.pdf">
+   <img src="imgs/pdf.png" style="max-width: 100px;" alt="Paper" />
+   </a>
+   <figcaption>Image-based 3D Object Reconstruction: State-of-the-Art and Trends in the Deep Learning Era.</figcaption>
+</figure>
+
+<figure>
+   <a href="https://github.com/lopesivan/impa-2019-11-21/raw/master/slide.pdf">
+   <img src="imgs/pdf.png" style="max-width: 100px;" alt="Slide" />
+   </a>
+   <figcaption>Apresentação</figcaption>
+</figure>
+
+<p>O código fonte da implementação estatística do problema das <a href="https://raw.githubusercontent.com/lopesivan/impa-2019-11-21/master/code/classify_stairs_nnet_from_scratch.R">classificação das escadas em tons de cinza</a>
+conforme mostrado no <a href="https://github.com/lopesivan/impa-2019-11-21/raw/master/slide.pdf">slide</a> da apresentação.</p>
+
+<figure class="highlight"><pre><code class="language-r" data-lang="r"><span class="n">sss</span></code></pre></figure>
+
+<!--
+vim: set ts=4 sw=4 tw=64 ft=markdown:
+-->
+:ET
