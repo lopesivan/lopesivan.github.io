@@ -6,8 +6,8 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 14 Dec 2019 05:25:03 -0300</pubDate>
-    <lastBuildDate>Sat, 14 Dec 2019 05:25:03 -0300</lastBuildDate>
+    <pubDate>Sat, 14 Dec 2019 05:34:32 -0300</pubDate>
+    <lastBuildDate>Sat, 14 Dec 2019 05:34:32 -0300</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
     
       <item>
@@ -49,6 +49,21 @@
 &lt;/div&gt;
 
 &lt;hr /&gt;
+
+&lt;!-- START doctoc generated TOC please keep comment here to allow auto update --&gt;
+&lt;!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE --&gt;
+&lt;p&gt;&lt;strong&gt;Tabela de Conteúdo&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;#abstract&quot;&gt;Abstract&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#introdu%C3%A7%C3%A3o&quot;&gt;INTRODUÇÃO&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#a-evolu%C3%A7%C3%A3o-dos-m%C3%A9todos-de-reconstru%C3%A7%C3%A3o-3d&quot;&gt;A evolução dos métodos de reconstrução 3D&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#compara%C3%A7%C3%A3o-de-m%C3%A9todos-de-constru%C3%A7%C3%A3o&quot;&gt;Comparação de métodos de construção&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#bibliografia&quot;&gt;Bibliografia&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#materiais-adicionais&quot;&gt;Materiais adicionais&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;!-- END doctoc generated TOC please keep comment here to allow auto update --&gt;
 
 &lt;h2 id=&quot;abstract&quot;&gt;Abstract&lt;/h2&gt;
 
