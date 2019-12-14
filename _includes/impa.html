@@ -3,8 +3,9 @@
       <center>
       <figure>
          <a href="{{ include.url }}">
-         <img src="{{ include.file }}" style="max-width: {{ include.max-width }};"
-            alt="{{ include.alt }}"/>
+            <img src="{{ include.file }}"
+                 style="max-width:{{ include.max-width }};"
+                 alt="{{ include.alt }}"/>
          </a>
          <figcaption>{{ include.caption }}</figcaption>
       </figure>
@@ -15,11 +16,10 @@
       Course: <h1>{{ include.description }}</h1>
       <a href="{{include.link}}">
       <center>
-         <h1>{{ include.title }}
-         </h1>
+         <h1>{{ include.title }}</h1>
          <h2><i>{{ include.subtitle }}</i></h2>
          <p>
-            <h3> {{include.date}} </h3>
+            <h3>{{include.date}}</h3>
          </p>
       </center>
       </a>
