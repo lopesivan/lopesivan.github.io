@@ -6,25 +6,14 @@ categories: Paper Presentation
 ---
 
 
-# Introdução
-
-Lorem ipsum elit vulputate dolor eleifend cursus hac arcu non, potenti faucibus platea donec cras convallis sodales vehicula enim aptent, aliquam nostra porta convallis erat id sodales molestie. velit felis praesent mauris libero ligula potenti pharetra condimentum, sit fames rutrum quis odio mauris blandit massa arcu, massa metus purus nibh posuere habitasse rutrum. donec scelerisque purus inceptos feugiat faucibus himenaeos risus eleifend justo per velit sagittis tortor mi, convallis ut id hac purus adipiscing sollicitudin tristique sociosqu vulputate lacinia ad rhoncus. aenean velit convallis et maecenas est pellentesque dictumst sollicitudin tempus purus cras, cubilia pulvinar hendrerit ut aenean donec eget platea vel litora vulputate, fames bibendum a euismod gravida luctus himenaeos posuere imperdiet fusce.
-
-# sub titulos 1
-Lorem ipsum elit vulputate dolor eleifend cursus hac arcu non, potenti faucibus platea donec cras convallis sodales vehicula enim aptent, aliquam nostra porta convallis erat id sodales molestie. velit felis praesent mauris libero ligula potenti pharetra condimentum, sit fames rutrum quis odio mauris blandit massa arcu, massa metus purus nibh posuere habitasse rutrum. donec scelerisque purus inceptos feugiat faucibus himenaeos risus eleifend justo per velit sagittis tortor mi, convallis ut id hac purus adipiscing sollicitudin tristique sociosqu vulputate lacinia ad rhoncus. aenean velit convallis et maecenas est pellentesque dictumst sollicitudin tempus purus cras, cubilia pulvinar hendrerit ut aenean donec eget platea vel litora vulputate, fames bibendum a euismod gravida luctus himenaeos posuere imperdiet fusce.
-
-# sub titulos 2
-Lorem ipsum elit vulputate dolor eleifend cursus hac arcu non, potenti faucibus platea donec cras convallis sodales vehicula enim aptent, aliquam nostra porta convallis erat id sodales molestie. velit felis praesent mauris libero ligula potenti pharetra condimentum, sit fames rutrum quis odio mauris blandit massa arcu, massa metus purus nibh posuere habitasse rutrum. donec scelerisque purus inceptos feugiat faucibus himenaeos risus eleifend justo per velit sagittis tortor mi, convallis ut id hac purus adipiscing sollicitudin tristique sociosqu vulputate lacinia ad rhoncus. aenean velit convallis et maecenas est pellentesque dictumst sollicitudin tempus purus cras, cubilia pulvinar hendrerit ut aenean donec eget platea vel litora vulputate, fames bibendum a euismod gravida luctus himenaeos posuere imperdiet fusce.
-# sub titulos 3
-Lorem ipsum elit vulputate dolor eleifend cursus hac arcu non, potenti faucibus platea donec cras convallis sodales vehicula enim aptent, aliquam nostra porta convallis erat id sodales molestie. velit felis praesent mauris libero ligula potenti pharetra condimentum, sit fames rutrum quis odio mauris blandit massa arcu, massa metus purus nibh posuere habitasse rutrum. donec scelerisque purus inceptos feugiat faucibus himenaeos risus eleifend justo per velit sagittis tortor mi, convallis ut id hac purus adipiscing sollicitudin tristique sociosqu vulputate lacinia ad rhoncus. aenean velit convallis et maecenas est pellentesque dictumst sollicitudin tempus purus cras, cubilia pulvinar hendrerit ut aenean donec eget platea vel litora vulputate, fames bibendum a euismod gravida luctus himenaeos posuere imperdiet fusce.
-
+# Abstract
 
 A reconstrução 3D é um problema antigo e mal colocado, que tem sido explorado
 há décadas pela visão computacional,computação gráfica e comunidades de
 aprendizado de máquina. Desde 2015, a reconstrução 3D com base em imagem
 usando sistemas neurais convolucionaisredes (CNN) atraiu um interesse
 crescente e demonstrou um desempenho impressionante. Dada esta nova era de
-rápida evolução,Este artigo fornece uma pesquisa abrangente dos
+rápida evolução, este artigo fornece uma pesquisa abrangente dos
 desenvolvimentos recentes nesse campo. Focamos nos trabalhos que usam
 aprendizado profundo técnicas para estimar a forma 3D de objetos genéricos a
 partir de uma única ou várias imagens RGB. Organizamos a literatura com base
@@ -35,6 +24,97 @@ que se concentram em classes de objetos específicas, como formas e rostos do
 corpo humano. Fornecemos uma análise e comparação do desempenho de alguns
 documentos principais, resumimos alguns dos problemas em aberto nesse campo e
 discutir direções promissoras para pesquisas futuras.
+
+
+# INTRODUÇÃO
+
+objetivo da reconstrução 3D baseada em imagem é inferir a geometria e estrutura
+de objetos e cenas de um ou várias imagens 2D. Este problema de longa data mal
+posicionado é fundamental para muitas aplicações, como navegação por
+robô, reconhecimento de objetos e compreensão de cenas, modelagem 3D e animação,
+controle industrial e diagnóstico médico.
+
+A recuperação da dimensão perdida a partir de apenas imagens 2D foi o objetivo
+do estéreo multivista clássico e do formato Métodos X, que foram
+extensivamente investigados por muitas décadas.  A primeira geração de métodos
+abordava o problema da perspectiva geométrica; eles focaram na compreensão e
+formalização, matematicamente, do 3D ao processo de projeção 2D, com o objetivo
+de elaborar soluções técnicas ou algorítmicas para a inversa mal postalem.
+
+Soluções eficazes geralmente exigem várias imagens, capturado usando câmeras
+calibradas com precisão. Baseado em estéreo técnicas [ 1] , por exemplo, exigem
+recursos correspondentes imagens capturadas de ângulos de visão ligeiramente
+diferentes e use o princípio da triangulação para recuperar a coordenação
+3D dinates dos pixels da imagem.  Forma a partir da silhueta ou forma pelo
+espaço-escultura, métodos [ 2] requerem segmentação precisa Silhuetas 2D. Esses
+métodos, que levaram a razões reconstruções 3D de qualidade aceitável, exigem
+várias imagens de o mesmo objeto capturado por câmeras bem calibradas. Este,no
+entanto, pode não ser prático ou viável em muitas situações.
+
+
+Curiosamente, os seres humanos são bons em resolver esses problemas problemas
+inversos, aproveitando o conhecimento prévio. Eles podem inferir o tamanho
+aproximado e a geometria aproximada dos objetos usando apenas um olho. Eles
+podem até adivinhar o que seria parece de outro ponto de vista. Nós podemos
+fazer isso porque todos os objetos e cenas vistos anteriormente nos
+permitiram construir conhecimento prévio e desenvolver modelos mentais de como
+são os objetos. A segunda geração de reconhecimento 3D métodos de construção
+tentaram alavancar esse conhecimento prévio formular o problema de reconstrução
+3D como reconhecimento problema. A avenida das técnicas de aprendizado profundo
+e muito maisimportante, a crescente disponibilidade de grandes dados de
+treinamento conjuntos, levaram a uma nova geração de métodos capazes
+de recuperar a geometria 3D e a estrutura dos objetos de um ou múltiplas imagens
+RGB sem a complexidade da câmera processo de separação. Apesar de recentes,
+esses métodos têm demonstrou resultados emocionantes e promissores em
+vários tarefas relacionadas à visão e gráficos de computador.
+
+Neste artigo, fornecemos uma estrutura abrangente e revisão detalhada dos
+recentes avanços na reconstrução usando técnicas de aprendizagem profunda.
+Primeiro focamos formas genéricas e, em seguida, discutir casos específicos,
+como o corpo humano molda a face da reconstrução e a cena 3D análise.
+Reunimos 149 trabalhos, que apareceram desde 2015 na liderança em visão
+computacional, computação gráfica,e conferências e periódicos de aprendizado
+de máquina1. O objetivoé ajudar o leitor a navegar neste campo emergente,
+que ganhou um impulso significativo nos últimos anos. Comparados à literatura
+existente, as principais contribuições deste artigo é o seguinte;
+
+1) Até onde sabemos, esta é a primeira pesquisa artigo na literatura que se
+concentra na imagem reconstrução de objetos 3D baseada em aprendizagem
+profunda.
+
+2) Cobrimos a literatura contemporânea com respeito para esta área.
+Apresentamos uma revisão abrangente de 149 métodos, que surgiram desde 2015.
+
+3) Fornecemos uma análise abrangente e uma análise perspicaz de todos os
+aspectos da reconstrução 3D usando aprendizado profundo, incluindo os dados de
+treinamento, escolha das arquiteturas de rede e seus efeitos sobre os resultados
+da reconstrução 3D, as estratégias de treinamento,e os cenários de
+aplicativos.
+
+4) Fornecemos um resumo comparativo das propriedades e desempenho
+dos métodos revisados para reconstrução genérica de objetos 3D. Cobrimos
+88 algoritmos para reconstrução genérica de objetos 3D, 11 métodos relacionados
+à reconstrução da face 3D e 6 métodos para reconstrução 3D da forma do corpo
+humano.
+
+5) Fornecemos um resumo comparativo dos métodos de forma tabular.
+
+O restante deste artigo está organizado da seguinte forma; Seção 2 fo-detalha
+o problema e estabelece a taxonomia. Seção 3analisa os espaços latentes e os
+mecanismos de codificação de entradanismos. A Seção 4 examina as técnicas de
+reconstrução volumétricatécnicas, enquanto a Seção 5 se concentra em técnicas
+de superfície.A seção 6 mostra como algumas das técnicas de pontause dicas
+adicionais para aumentar o desempenho da recuperação 3Dconstrução. A seção 7
+discute os procedimentos de treinamento.A seção 8 concentra-se em objetos
+específicos, como o corpo humanoformas e rostos. Seção 9 resume as mais
+comunsconjuntos de dados usados ​​para treinar, testar e avaliar o
+desempenho devários algoritmos de reconstrução 3D baseados em aprendizado
+profundo.A Seção 10 compara e discute o desempenho de algumasprincipais
+métodos. Por fim, a Seção 11 discute o potencial futuroinstruções de pesquisa
+enquanto a Seção 12 conclui o artigocom algumas observações importantes.
+
+
+
 
 
 
@@ -73,11 +153,10 @@ print_hi('Tom')
 #=> prints 'Hi, Tom' to STDOUT.
 {% endhighlight %}
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+Check out the [Slide][main-slide] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
 
-https://github.com/lopesivan/impa-2019-11-21/raw/master/1906.06543.pdf
-https://github.com/lopesivan/impa-2019-11-21/raw/master/slide.pdf
-
+[main-paper]:https://github.com/lopesivan/impa-2019-11-21/raw/master/1906.06543.pdf
+[main-slide]:https://github.com/lopesivan/impa-2019-11-21/raw/master/slide.pdf
 [jekyll-docs]: http://jekyllrb.com/docs/home
 [jekyll-docs]: http://jekyllrb.com/docs/home
 [jekyll-gh]:   https://github.com/jekyll/jekyll
