@@ -6,8 +6,8 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 13 Dec 2019 21:06:19 -0300</pubDate>
-    <lastBuildDate>Fri, 13 Dec 2019 21:06:19 -0300</lastBuildDate>
+    <pubDate>Fri, 13 Dec 2019 23:42:14 -0300</pubDate>
+    <lastBuildDate>Fri, 13 Dec 2019 23:42:14 -0300</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
     
       <item>
@@ -40,7 +40,17 @@
     
       <item>
         <title>Estado da arte e tendências na era do  Aprendizado profundo</title>
-        <description>&lt;p&gt;&lt;a href=&quot;https://github.com/lopesivan/impa-2019-11-21/raw/master/1906.06543.pdf&quot;&gt;Paper Presentation&lt;/a&gt;&lt;/p&gt;
+        <description>&lt;h1 id=&quot;introdução&quot;&gt;Introdução&lt;/h1&gt;
+
+&lt;p&gt;Lorem ipsum elit vulputate dolor eleifend cursus hac arcu non, potenti faucibus platea donec cras convallis sodales vehicula enim aptent, aliquam nostra porta convallis erat id sodales molestie. velit felis praesent mauris libero ligula potenti pharetra condimentum, sit fames rutrum quis odio mauris blandit massa arcu, massa metus purus nibh posuere habitasse rutrum. donec scelerisque purus inceptos feugiat faucibus himenaeos risus eleifend justo per velit sagittis tortor mi, convallis ut id hac purus adipiscing sollicitudin tristique sociosqu vulputate lacinia ad rhoncus. aenean velit convallis et maecenas est pellentesque dictumst sollicitudin tempus purus cras, cubilia pulvinar hendrerit ut aenean donec eget platea vel litora vulputate, fames bibendum a euismod gravida luctus himenaeos posuere imperdiet fusce.&lt;/p&gt;
+
+&lt;h1 id=&quot;sub-titulos-1&quot;&gt;sub titulos 1&lt;/h1&gt;
+&lt;p&gt;Lorem ipsum elit vulputate dolor eleifend cursus hac arcu non, potenti faucibus platea donec cras convallis sodales vehicula enim aptent, aliquam nostra porta convallis erat id sodales molestie. velit felis praesent mauris libero ligula potenti pharetra condimentum, sit fames rutrum quis odio mauris blandit massa arcu, massa metus purus nibh posuere habitasse rutrum. donec scelerisque purus inceptos feugiat faucibus himenaeos risus eleifend justo per velit sagittis tortor mi, convallis ut id hac purus adipiscing sollicitudin tristique sociosqu vulputate lacinia ad rhoncus. aenean velit convallis et maecenas est pellentesque dictumst sollicitudin tempus purus cras, cubilia pulvinar hendrerit ut aenean donec eget platea vel litora vulputate, fames bibendum a euismod gravida luctus himenaeos posuere imperdiet fusce.&lt;/p&gt;
+
+&lt;h1 id=&quot;sub-titulos-2&quot;&gt;sub titulos 2&lt;/h1&gt;
+&lt;p&gt;Lorem ipsum elit vulputate dolor eleifend cursus hac arcu non, potenti faucibus platea donec cras convallis sodales vehicula enim aptent, aliquam nostra porta convallis erat id sodales molestie. velit felis praesent mauris libero ligula potenti pharetra condimentum, sit fames rutrum quis odio mauris blandit massa arcu, massa metus purus nibh posuere habitasse rutrum. donec scelerisque purus inceptos feugiat faucibus himenaeos risus eleifend justo per velit sagittis tortor mi, convallis ut id hac purus adipiscing sollicitudin tristique sociosqu vulputate lacinia ad rhoncus. aenean velit convallis et maecenas est pellentesque dictumst sollicitudin tempus purus cras, cubilia pulvinar hendrerit ut aenean donec eget platea vel litora vulputate, fames bibendum a euismod gravida luctus himenaeos posuere imperdiet fusce.&lt;/p&gt;
+&lt;h1 id=&quot;sub-titulos-3&quot;&gt;sub titulos 3&lt;/h1&gt;
+&lt;p&gt;Lorem ipsum elit vulputate dolor eleifend cursus hac arcu non, potenti faucibus platea donec cras convallis sodales vehicula enim aptent, aliquam nostra porta convallis erat id sodales molestie. velit felis praesent mauris libero ligula potenti pharetra condimentum, sit fames rutrum quis odio mauris blandit massa arcu, massa metus purus nibh posuere habitasse rutrum. donec scelerisque purus inceptos feugiat faucibus himenaeos risus eleifend justo per velit sagittis tortor mi, convallis ut id hac purus adipiscing sollicitudin tristique sociosqu vulputate lacinia ad rhoncus. aenean velit convallis et maecenas est pellentesque dictumst sollicitudin tempus purus cras, cubilia pulvinar hendrerit ut aenean donec eget platea vel litora vulputate, fames bibendum a euismod gravida luctus himenaeos posuere imperdiet fusce.&lt;/p&gt;
 
 &lt;p&gt;A reconstrução 3D é um problema antigo e mal colocado, que tem sido explorado
 há décadas pela visão computacional,computação gráfica e comunidades de
@@ -59,6 +69,30 @@ corpo humano. Fornecemos uma análise e comparação do desempenho de alguns
 documentos principais, resumimos alguns dos problemas em aberto nesse campo e
 discutir direções promissoras para pesquisas futuras.&lt;/p&gt;
 
+&lt;figure class=&quot;panel-image&quot;&gt;
+   &lt;a href=&quot;https://github.com/lopesivan/impa-2019-11-21/raw/master/1906.06543.pdf&quot;&gt;
+   &lt;img src=&quot;imgs/pdf.png&quot; style=&quot;max-width: 100px;&quot; alt=&quot;Paper&quot; /&gt;
+   &lt;/a&gt;
+   &lt;figcaption&gt;Image-based 3D Object Reconstruction: State-of-the-Art and Trends in the Deep Learning Era.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;figure class=&quot;panel-image&quot;&gt;
+   &lt;a href=&quot;https://github.com/lopesivan/impa-2019-11-21/raw/master/slide.pdf&quot;&gt;
+   &lt;img src=&quot;imgs/pdf.png&quot; style=&quot;max-width: 100px;&quot; alt=&quot;Slide&quot; /&gt;
+   &lt;/a&gt;
+   &lt;figcaption&gt;Aprsentação&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;div&gt;
+   Artigo usado na apresentação: &lt;a href=&quot;docs/1906.06543.pdf&quot;&gt;Image-based 3D Object Reconstruction: State-of-the-Art and Trends in the Deep Learning Era.&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;div&gt;
+   Slide baseado no artigo proposto: &lt;a href=&quot;docs/slide.pdf&quot;&gt;Reconstrução de objetos 3D baseados em imagem.&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;hr /&gt;
+
 &lt;p&gt;Ivan Jekyll also offers powerful support for code snippets:&lt;/p&gt;
 
 &lt;p&gt;Ivan Jekyll also offers powerful support for code snippets:&lt;/p&gt;
@@ -72,7 +106,7 @@ discutir direções promissoras para pesquisas futuras.&lt;/p&gt;
 &lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;https://github.com/lopesivan/impa-2019-11-21/raw/master/1906.06543.pdf
-https://github.com/lopesivan/impa-2019-11-21/commits/master/slide.pdf&lt;/p&gt;
+https://github.com/lopesivan/impa-2019-11-21/raw/master/slide.pdf&lt;/p&gt;
 
 </description>
         <pubDate>Thu, 21 Nov 2019 17:15:23 -0300</pubDate>
