@@ -49,21 +49,21 @@ formalização, matematicamente, do 3D ao processo de projeção 2D,
 com o objetivo de elaborar soluções técnicas ou algorítmicas
 para obtenção do mecanismo inverso.
 
-## Soluções
+## Modelos e Soluções
 
-Soluções eficazes geralmente exigem várias imagens, capturando a
+Soluções eficazes geralmente exigem várias imagens, capturadas a
 partir de câmeras calibradas com precisão. Baseando-se em
-técnicas de estéreo, por exemplo, exigem recursos
+técnicas de estéreo, por exemplo, exigem como recursos
 correspondentes imagens capturadas de ângulos de visão
-ligeiramente diferentes e use o princípio da triangulação para
-recuperar a coordenação 3D dinates dos pixels da imagem.  Forma
-a partir da silhueta ou forma pelo espaço-escultura, métodos [
-2] requerem segmentação precisa Silhuetas 2D. Esses métodos, que
-levaram a razões reconstruções 3D de qualidade aceitável, exigem
-várias imagens de o mesmo objeto capturado por câmeras bem
-calibradas. Este,no entanto, pode não ser prático ou viável em
-muitas situações.
+ligeiramente diferentes e que se use o princípio da triangulação
+para recuperar a coordenação 3D diante dos pixels da imagem.
 
+Formam-se a partir da silhueta ou forma pelo espaço escultural,
+métodos que requerem segmentação precisa das silhuetas 2D. Esses
+métodos, que levaram a razões reconstruções 3D de qualidade
+aceitável, exigem várias imagens de o mesmo objeto capturado por
+câmeras bem calibradas. Este,no entanto, pode não ser prático ou
+viável em muitas situações devido ao alto custo computacional.
 
 Curiosamente, os seres humanos são bons em resolver esses problemas problemas
 inversos, aproveitando o conhecimento prévio. Eles podem inferir o tamanho
