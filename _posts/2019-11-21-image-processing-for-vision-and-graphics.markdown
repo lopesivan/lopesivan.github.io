@@ -4,6 +4,9 @@ title:  "Estado da arte e tendências na era do  Aprendizado profundo"
 date:   2019-11-21 17:15:23 -0300
 categories: Paper Presentation
 ---
+
+[Paper Presentation](https://github.com/lopesivan/impa-2019-11-21/raw/master/1906.06543.pdf)
+
 A reconstrução 3D é um problema antigo e mal colocado, que tem sido explorado
 há décadas pela visão computacional,computação gráfica e comunidades de
 aprendizado de máquina. Desde 2015, a reconstrução 3D com base em imagem
@@ -35,6 +38,10 @@ print_hi('Tom')
 
 Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
 
+https://github.com/lopesivan/impa-2019-11-21/raw/master/1906.06543.pdf
+https://github.com/lopesivan/impa-2019-11-21/commits/master/slide.pdf
+
+[jekyll-docs]: http://jekyllrb.com/docs/home
 [jekyll-docs]: http://jekyllrb.com/docs/home
 [jekyll-gh]:   https://github.com/jekyll/jekyll
 [jekyll-talk]: https://talk.jekyllrb.com/
