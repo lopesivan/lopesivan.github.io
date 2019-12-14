@@ -6,8 +6,8 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 13 Dec 2019 18:32:50 -0300</pubDate>
-    <lastBuildDate>Fri, 13 Dec 2019 18:32:50 -0300</lastBuildDate>
+    <pubDate>Fri, 13 Dec 2019 21:06:19 -0300</pubDate>
+    <lastBuildDate>Fri, 13 Dec 2019 21:06:19 -0300</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
     
       <item>
@@ -40,7 +40,9 @@
     
       <item>
         <title>Estado da arte e tendências na era do  Aprendizado profundo</title>
-        <description>&lt;p&gt;A reconstrução 3D é um problema antigo e mal colocado, que tem sido explorado
+        <description>&lt;p&gt;&lt;a href=&quot;https://github.com/lopesivan/impa-2019-11-21/raw/master/1906.06543.pdf&quot;&gt;Paper Presentation&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;A reconstrução 3D é um problema antigo e mal colocado, que tem sido explorado
 há décadas pela visão computacional,computação gráfica e comunidades de
 aprendizado de máquina. Desde 2015, a reconstrução 3D com base em imagem
 usando sistemas neurais convolucionaisredes (CNN) atraiu um interesse
@@ -68,6 +70,9 @@ discutir direções promissoras para pesquisas futuras.&lt;/p&gt;
 &lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;https://github.com/lopesivan/impa-2019-11-21/raw/master/1906.06543.pdf
+https://github.com/lopesivan/impa-2019-11-21/commits/master/slide.pdf&lt;/p&gt;
 
 </description>
         <pubDate>Thu, 21 Nov 2019 17:15:23 -0300</pubDate>
