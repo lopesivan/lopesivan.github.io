@@ -260,4 +260,11 @@ pre > code { border: 0; padding-right: 0; padding-left: 0; }
 
 .highlight .il { color: #099; }
 
+.panel-image > img { position: absolute; left: 50%; top: 50%; -webkit-transform: translate(-50%, -50%); -moz-transform: translate(-50%, -50%); -ms-transform: translate(-50%, -50%); -o-transform: translate(-50%, -50%); transform: translate(-50%, -50%); }
+
+.column { float: left; width: 50%; }
+
+/* Clear floats after the columns */
+.row:after { content: ""; display: table; clear: both; }
+
 /*# sourceMappingURL=main.css.map */
