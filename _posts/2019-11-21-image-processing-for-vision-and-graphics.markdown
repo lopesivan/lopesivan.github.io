@@ -8,31 +8,37 @@ categories: Paper Presentation
 
 ## Abstract
 
-A reconstrução 3D é um problema antigo e mal colocado, que tem sido explorado
-há décadas pela visão computacional,computação gráfica e comunidades de
-aprendizado de máquina. Desde 2015, a reconstrução 3D com base em imagem
-usando sistemas neurais convolucionaisredes (CNN) atraiu um interesse
-crescente e demonstrou um desempenho impressionante. Dada esta nova era de
+A reconstrução 3D é um problema antigo e mal colocado, que tem
+sido explorado há décadas pela visão computacional, computação
+gráfica e comunidades de aprendizado de máquina. Desde 2015, a
+reconstrução 3D com base em imagem usando sistemas neurais
+convolucionaisredes (CNN) atraiu um interesse crescente e
+demonstrou um desempenho impressionante. Dada esta nova era de
 rápida evolução, este artigo fornece uma pesquisa abrangente dos
-desenvolvimentos recentes nesse campo. Focamos nos trabalhos que usam
-aprendizado profundo técnicas para estimar a forma 3D de objetos genéricos a
-partir de uma única ou várias imagens RGB. Organizamos a literatura com base
-nas representações de forma, nas arquiteturas de rede e nos mecanismos de
-treinamento que eles usam. Embora esta pesquisa se destine a métodos que
-reconstroem objetos genéricos, também revisamos alguns dos trabalhos recentes
-que se concentram em classes de objetos específicas, como formas e rostos do
-corpo humano. Fornecemos uma análise e comparação do desempenho de alguns
-documentos principais, resumimos alguns dos problemas em aberto nesse campo e
-discutir direções promissoras para pesquisas futuras.
+desenvolvimentos recentes nesse campo. Focando nos trabalhos que
+usam aprendizado profundo e técnicas para estimar a forma 3D de
+objetos genéricos a partir de uma única ou várias imagens RGB.
+
+Organizamos a literatura com base nas representações de forma,
+nas arquiteturas de rede e nos mecanismos de treinamento que que
+são usados. Embora esta pesquisa se destine a métodos que
+reconstroem objetos genéricos, também é revisado alguns dos
+trabalhos recentes que se concentram em classes de objetos
+específicas, como formas e rostos humanos. É fornecido uma
+análise e comparação do desempenho de alguns documentos
+principais, resumindo-se alguns dos problemas em aberto nesse
+campo e propondo direções promissoras para pesquisas futuras.
 
 
 ## INTRODUÇÃO
 
-objetivo da reconstrução 3D baseada em imagem é inferir a geometria e estrutura
-de objetos e cenas de um ou várias imagens 2D. Este problema de longa data mal
-posicionado é fundamental para muitas aplicações, como navegação por
-robô, reconhecimento de objetos e compreensão de cenas, modelagem 3D e animação,
-controle industrial e diagnóstico médico.
+O objetivo da reconstrução 3D baseada em imagem é inferir a
+geometria e estrutura de objetos e cenas partindo de um ou
+várias imagens 2D. Este problema de longa data que é mal
+posicionado é fundamental para muitas aplicações, como navegação
+por robô, reconhecimento de objetos e compreensão de cenas,
+modelagem 3D e animação, controle industrial e diagnóstico
+médico.
 
 A recuperação da dimensão perdida a partir de apenas imagens 2D foi o objetivo
 do estéreo multivista clássico e do formato Métodos X, que foram
@@ -479,3 +485,7 @@ Check out the [Slide][main-slide] for more info on how to get the most out of Je
 [jekyll-docs]: http://jekyllrb.com/docs/home
 [jekyll-gh]:   https://github.com/jekyll/jekyll
 [jekyll-talk]: https://talk.jekyllrb.com/
+
+<!--
+vim: set ts=4 sw=4 tw=64 ft=markdown:
+-->
