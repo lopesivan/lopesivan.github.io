@@ -1,0 +1,28 @@
+---
+layout: default
+---
+<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+
+    {% include impa.html url="https://impa.br"
+       max-width="250px" file="imgs/IMPA.png"
+       alt="IMPA logo"
+       caption=""
+       description="Image Processing for Vision and Graphics"
+       link="http://lvelho.impa.br/ip19/"
+       title="Fundamentals and Trends in Vision and Image Processing"
+       subtitle="Deep Reconstruction from Light Fields"
+       date="August-November, 2019"
+    %}
+
+    <hr />
+    <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
+    <p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</p>
+  </header>
+
+  <div class="post-content" itemprop="articleBody">
+    {{ content }}
+  </div>
+
+</article>
