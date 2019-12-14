@@ -260,4 +260,8 @@ pre > code { border: 0; padding-right: 0; padding-left: 0; }
 
 .highlight .il { color: #099; }
 
+.column { float: left; width: 50%; }
+
+.row:after { content: ""; display: table; clear: both; }
+
 /*# sourceMappingURL=main.css.map */
