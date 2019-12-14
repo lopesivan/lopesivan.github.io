@@ -6,8 +6,8 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 13 Dec 2019 23:57:27 -0300</pubDate>
-    <lastBuildDate>Fri, 13 Dec 2019 23:57:27 -0300</lastBuildDate>
+    <pubDate>Sat, 14 Dec 2019 00:23:01 -0300</pubDate>
+    <lastBuildDate>Sat, 14 Dec 2019 00:23:01 -0300</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
     
       <item>
@@ -40,7 +40,7 @@
     
       <item>
         <title>Estado da arte e tendências na era do  Aprendizado profundo</title>
-        <description>&lt;h1 id=&quot;abstract&quot;&gt;Abstract&lt;/h1&gt;
+        <description>&lt;h2 id=&quot;abstract&quot;&gt;Abstract&lt;/h2&gt;
 
 &lt;p&gt;A reconstrução 3D é um problema antigo e mal colocado, que tem sido explorado
 há décadas pela visão computacional,computação gráfica e comunidades de
@@ -59,7 +59,7 @@ corpo humano. Fornecemos uma análise e comparação do desempenho de alguns
 documentos principais, resumimos alguns dos problemas em aberto nesse campo e
 discutir direções promissoras para pesquisas futuras.&lt;/p&gt;
 
-&lt;h1 id=&quot;introdução&quot;&gt;INTRODUÇÃO&lt;/h1&gt;
+&lt;h2 id=&quot;introdução&quot;&gt;INTRODUÇÃO&lt;/h2&gt;
 
 &lt;p&gt;objetivo da reconstrução 3D baseada em imagem é inferir a geometria e estrutura
 de objetos e cenas de um ou várias imagens 2D. Este problema de longa data mal
@@ -145,14 +145,14 @@ profundo.A Seção 10 compara e discute o desempenho de algumasprincipais
 métodos. Por fim, a Seção 11 discute o potencial futuroinstruções de pesquisa
 enquanto a Seção 12 conclui o artigocom algumas observações importantes.&lt;/p&gt;
 
-&lt;figure class=&quot;panel-image&quot;&gt;
+&lt;figure&gt;
    &lt;a href=&quot;https://github.com/lopesivan/impa-2019-11-21/raw/master/1906.06543.pdf&quot;&gt;
    &lt;img src=&quot;imgs/pdf.png&quot; style=&quot;max-width: 100px;&quot; alt=&quot;Paper&quot; /&gt;
    &lt;/a&gt;
    &lt;figcaption&gt;Image-based 3D Object Reconstruction: State-of-the-Art and Trends in the Deep Learning Era.&lt;/figcaption&gt;
 &lt;/figure&gt;
 
-&lt;figure class=&quot;panel-image&quot;&gt;
+&lt;figure&gt;
    &lt;a href=&quot;https://github.com/lopesivan/impa-2019-11-21/raw/master/slide.pdf&quot;&gt;
    &lt;img src=&quot;imgs/pdf.png&quot; style=&quot;max-width: 100px;&quot; alt=&quot;Slide&quot; /&gt;
    &lt;/a&gt;
