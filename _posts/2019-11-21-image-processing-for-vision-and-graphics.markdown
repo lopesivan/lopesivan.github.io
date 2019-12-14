@@ -17,6 +17,19 @@ name="Reconstrução de objetos 3D baseados em imagem." %}
 
 ---
 
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Tabela de Conteúdo**
+
+- [Abstract](#abstract)
+- [INTRODUÇÃO](#introdu%C3%A7%C3%A3o)
+- [A evolução dos métodos de reconstrução 3D](#a-evolu%C3%A7%C3%A3o-dos-m%C3%A9todos-de-reconstru%C3%A7%C3%A3o-3d)
+- [Comparação de métodos de construção](#compara%C3%A7%C3%A3o-de-m%C3%A9todos-de-constru%C3%A7%C3%A3o)
+- [Bibliografia](#bibliografia)
+- [Materiais adicionais](#materiais-adicionais)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 ## Abstract
 
 A reconstrução 3D é um problema antigo e mal colocado, que tem
