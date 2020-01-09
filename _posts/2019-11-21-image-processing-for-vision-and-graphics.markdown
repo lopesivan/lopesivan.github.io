@@ -22,7 +22,7 @@ name="Reconstrução de objetos 3D baseados em imagem." %}
 **Tabela de Conteúdo**
 
 - [Abstract](#abstract)
-- [INTRODUÇÃO](#introdu%C3%A7%C3%A3o)
+- [Introdução](#introdu%C3%A7%C3%A3o)
 - [A evolução dos métodos de reconstrução 3D](#a-evolu%C3%A7%C3%A3o-dos-m%C3%A9todos-de-reconstru%C3%A7%C3%A3o-3d)
 - [Comparação de métodos de construção](#compara%C3%A7%C3%A3o-de-m%C3%A9todos-de-constru%C3%A7%C3%A3o)
 - [Bibliografia](#bibliografia)
@@ -63,7 +63,7 @@ campo e propondo direções promissoras para pesquisas futuras.
 %}
 
 
-## INTRODUÇÃO
+## Introdução
 
 O objetivo da reconstrução 3D baseada em imagem é inferir a
 geometria e estrutura de objetos e cenas partindo de um ou
