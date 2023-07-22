@@ -6,12 +6,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Welcome to Ivan Lopes's Homepage</title>
-  <meta name="description" content="Todos os meus textos e trabalhos sempre estiveram confinados a academia e ao mercado de trabalho, sendo assim, resolvi criar este blog para compartilhar estes trabalho e  discutir tópicos relacionados a engenharia elétrica e ciências correlatas.
-">
+  <title>Mostrar a localização de um arquivo referenciado por um link simbólico</title>
+  <meta name="description" content="Para mostrar a localização de um arquivo referenciado por um link simbólico no Linux, você pode usar o comando readlink. Esse comando retorna o nome do arqui...">
 
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="http://localhost:4000/">
+  <link rel="canonical" href="http://localhost:4000/2023/07/22/mostrar-a-localizacao-de-um-arquivo-referenciado-por-um-link-simbolico/">
   <link rel="alternate" type="application/rss+xml" title="Welcome to Ivan Lopes's Homepage" href="http://localhost:4000/feed.xml">
 </head>
 
@@ -55,41 +54,37 @@
 
     <div class="page-content">
       <div class="wrapper">
-        <div class="home">
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
-  <h1 class="page-heading">Posts</h1>
+  <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">Mostrar a localização de um arquivo referenciado por um link simbólico</h1>
+    <p class="post-meta"><time datetime="2023-07-22T02:15:07-03:00" itemprop="datePublished">Jul 22, 2023</time> • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">Ivan Lopes</span></span></p>
+  </header>
 
-  <ul class="post-list">
-    
-      <li>
-        <span class="post-meta">Jul 22, 2023</span>
+  <div class="post-content" itemprop="articleBody">
+    <p>Para mostrar a localização de um arquivo referenciado por um link simbólico no Linux, você pode usar o comando <code class="highlighter-rouge">readlink</code>. Esse comando retorna o nome do arquivo ao qual o link simbólico aponta. A sintaxe geral é a seguinte:</p>
 
-        <h2>
-          <a class="post-link" href="/2023/07/22/mostrar-a-localizacao-de-um-arquivo-referenciado-por-um-link-simbolico/">Mostrar a localização de um arquivo referenciado por um link simbólico</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Dec 13, 2019</span>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>readlink -f &lt;caminho_para_o_link_simbolico&gt;
+</code></pre></div></div>
 
-        <h2>
-          <a class="post-link" href="/jekyll/update/2019/12/13/welcome-to-jekyll.html">Welcome to Jekyll!</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Nov 21, 2019</span>
+<p>Onde:</p>
+<ul>
+  <li><code class="highlighter-rouge">-f</code>: opção que faz com que o <code class="highlighter-rouge">readlink</code> retorne o caminho absoluto do arquivo real (não o caminho relativo).</li>
+  <li><code class="highlighter-rouge">&lt;caminho_para_o_link_simbolico&gt;</code>: é o caminho para o link simbólico cuja localização você deseja conhecer.</li>
+</ul>
 
-        <h2>
-          <a class="post-link" href="/paper/presentation/2019/11/21/image-processing-for-vision-and-graphics.html">Estado da arte e tendências na era do  Aprendizado profundo</a>
-        </h2>
-      </li>
-    
-  </ul>
+<p>Por exemplo, vamos supor que você tenha um link simbólico chamado “link_file” que aponta para o arquivo “target_file”, ambos localizados no diretório “/home/usuario/meus_arquivos/”. Para mostrar a localização do arquivo real referenciado pelo link simbólico, você usaria o seguinte comando:</p>
 
-  <p class="rss-subscribe">subscribe <a href="/feed.xml">via RSS</a></p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>readlink -f /home/usuario/meus_arquivos/link_file
+</code></pre></div></div>
 
-</div>
+<p>O comando retornará o caminho absoluto do arquivo real “target_file”.</p>
+
+<p>Caso o link simbólico não exista ou aponte para um local inexistente, o comando retornará um erro informando que o link é inválido.</p>
+
+  </div>
+
+</article>
 
       </div>
     </div>

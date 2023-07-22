@@ -1,0 +1,20 @@
+I"�<p>Para mostrar a localização de um arquivo referenciado por um link simbólico no Linux, você pode usar o comando <code class="highlighter-rouge">readlink</code>. Esse comando retorna o nome do arquivo ao qual o link simbólico aponta. A sintaxe geral é a seguinte:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>readlink -f &lt;caminho_para_o_link_simbolico&gt;
+</code></pre></div></div>
+
+<p>Onde:</p>
+<ul>
+  <li><code class="highlighter-rouge">-f</code>: opção que faz com que o <code class="highlighter-rouge">readlink</code> retorne o caminho absoluto do arquivo real (não o caminho relativo).</li>
+  <li><code class="highlighter-rouge">&lt;caminho_para_o_link_simbolico&gt;</code>: é o caminho para o link simbólico cuja localização você deseja conhecer.</li>
+</ul>
+
+<p>Por exemplo, vamos supor que você tenha um link simbólico chamado “link_file” que aponta para o arquivo “target_file”, ambos localizados no diretório “/home/usuario/meus_arquivos/”. Para mostrar a localização do arquivo real referenciado pelo link simbólico, você usaria o seguinte comando:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>readlink -f /home/usuario/meus_arquivos/link_file
+</code></pre></div></div>
+
+<p>O comando retornará o caminho absoluto do arquivo real “target_file”.</p>
+
+<p>Caso o link simbólico não exista ou aponte para um local inexistente, o comando retornará um erro informando que o link é inválido.</p>
+:ET
