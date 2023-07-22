@@ -75,3 +75,5 @@ function create_post {
 		unset sTags
 	fi
 }
+
+create_post
