@@ -6,12 +6,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Welcome to Ivan Lopes's Homepage</title>
-  <meta name="description" content="Todos os meus textos e trabalhos sempre estiveram confinados a academia e ao mercado de trabalho, sendo assim, resolvi criar este blog para compartilhar estes trabalho e  discutir tópicos relacionados a engenharia elétrica e ciências correlatas.
-">
+  <title>Resolvendo o problema do clangd ao encontrar as headers do C++ tipo iostream</title>
+  <meta name="description" content="Resolvendo o problema do clangd ao encontrar as headers do C++ tipo iostream">
 
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="http://localhost:4000/">
+  <link rel="canonical" href="http://localhost:4000/2023/08/02/resolvendo-o-problema-do-clangd-ao-encontrar-as-headers-do-c-tipo-iostream/">
   <link rel="alternate" type="application/rss+xml" title="Welcome to Ivan Lopes's Homepage" href="http://localhost:4000/feed.xml">
 </head>
 
@@ -55,49 +54,47 @@
 
     <div class="page-content">
       <div class="wrapper">
-        <div class="home">
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
-  <h1 class="page-heading">Posts</h1>
+  <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">Resolvendo o problema do clangd ao encontrar as headers do C++ tipo iostream</h1>
+    <p class="post-meta"><time datetime="2023-08-02T05:20:24-03:00" itemprop="datePublished">Aug 2, 2023</time></p>
+  </header>
 
-  <ul class="post-list">
-    
-      <li>
-        <span class="post-meta">Aug 2, 2023</span>
+  <div class="post-content" itemprop="articleBody">
+    <p><strong>Resolvendo o problema do clangd ao encontrar as headers do C++ tipo iostream</strong></p>
 
-        <h2>
-          <a class="post-link" href="/2023/08/02/resolvendo-o-problema-do-clangd-ao-encontrar-as-headers-do-c-tipo-iostream/">Resolvendo o problema do clangd ao encontrar as headers do C++ tipo iostream</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Jul 22, 2023</span>
+<p>Se você já trabalhou com o clangd e encontrou o erro “file not found” ao incluir a biblioteca “iostream” no seu código C++, não se preocupe, há uma solução simples para isso!</p>
 
-        <h2>
-          <a class="post-link" href="/2023/07/22/mostrar-a-localizacao-de-um-arquivo-referenciado-por-um-link-simbolico/">Mostrar a localização de um arquivo referenciado por um link simbólico</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Dec 13, 2019</span>
+<p>O clangd é um excelente servidor de linguagem para C++ que oferece recursos como autocompletar código, análise de erros e navegação pelo código. No entanto, em alguns casos, pode ser que o clangd não esteja encontrando as bibliotecas padrão do C++, como a “iostream”.</p>
 
-        <h2>
-          <a class="post-link" href="/jekyll/update/2019/12/13/welcome-to-jekyll.html">Welcome to Jekyll!</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Nov 21, 2019</span>
+<p>Uma das formas de resolver esse problema é exportar a variável de ambiente <code class="highlighter-rouge">CPLUS_INCLUDE_PATH</code>. Essa variável especifica os diretórios onde o clangd deve procurar as headers do C++. Aqui está como fazer isso:</p>
 
-        <h2>
-          <a class="post-link" href="/paper/presentation/2019/11/21/image-processing-for-vision-and-graphics.html">Estado da arte e tendências na era do  Aprendizado profundo</a>
-        </h2>
-      </li>
-    
-  </ul>
+<ol>
+  <li>
+    <p>Abra o terminal no seu sistema operacional.</p>
+  </li>
+  <li>
+    <p>Exporte a variável <code class="highlighter-rouge">CPLUS_INCLUDE_PATH</code> com os diretórios das bibliotecas do C++ que você deseja adicionar. Por exemplo, se você estiver usando a versão 11 do C++, pode usar os seguintes comandos:</p>
+  </li>
+</ol>
 
-  <p class="rss-subscribe">subscribe <a href="/feed.xml">via RSS</a></p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">export </span><span class="nv">CPLUS_INCLUDE_PATH</span><span class="o">=</span>/usr/include/c++/11:/usr/include/x86_64-linux-gnu/c++/11
+</code></pre></div></div>
 
-</div>
+<p>Esses diretórios são geralmente os caminhos onde as bibliotecas do C++ estão instaladas no sistema.</p>
+
+<ol>
+  <li>Após definir a variável <code class="highlighter-rouge">CPLUS_INCLUDE_PATH</code>, inicie o clangd novamente ou reinicie sua IDE ou editor que está usando para o desenvolvimento C++.</li>
+</ol>
+
+<p>Com isso, o clangd agora deve conseguir encontrar a biblioteca “iostream” e outras bibliotecas padrão do C++, permitindo que você trabalhe com mais facilidade em projetos C++ usando esse servidor de linguagem.</p>
+
+<p>Lembre-se de ajustar os caminhos dos diretórios de acordo com a configuração do seu sistema e a versão do C++ que você está utilizando. Com essa simples solução, você estará pronto para aproveitar todos os recursos do clangd em seus projetos C++ de forma tranquila e eficiente!</p>
+
+  </div>
+
+</article>
 
       </div>
     </div>
