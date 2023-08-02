@@ -1,5 +1,5 @@
 ---
-title: "Resolvendo o problema do clangd ao encontrar as headers do C++ tipo iostream"
+title: "Resolvendo o problema do clangd ao não encontrar as headers do C++ tipo iostream"
 date: 2023-08-02 05:20:24 -0300
 layout: post
 permalink: /2023/08/02/resolvendo-o-problema-do-clangd-ao-encontrar-as-headers-do-c-tipo-iostream/
