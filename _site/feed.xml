@@ -4,10 +4,10 @@
     <title>Welcome to Ivan Lopes's Homepage</title>
     <description>Todos os meus textos e trabalhos sempre estiveram confinados a academia e ao mercado de trabalho, sendo assim, resolvi criar este blog para compartilhar estes trabalho e  discutir tópicos relacionados a engenharia elétrica e ciências correlatas.
 </description>
-    <link>http://ivanlopes.eng.br/</link>
-    <atom:link href="http://ivanlopes.eng.br/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 02 Aug 2023 05:39:36 -0300</pubDate>
-    <lastBuildDate>Wed, 02 Aug 2023 05:39:36 -0300</lastBuildDate>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Wed, 02 Aug 2023 05:42:35 -0300</pubDate>
+    <lastBuildDate>Wed, 02 Aug 2023 05:42:35 -0300</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
     
       <item>
@@ -65,8 +65,8 @@ aproveitar todos os recursos do clangd em seus projetos C++ de
 forma tranquila e eficiente!&lt;/p&gt;
 </description>
         <pubDate>Wed, 02 Aug 2023 05:20:24 -0300</pubDate>
-        <link>http://ivanlopes.eng.br/2023/08/02/resolvendo-o-problema-do-clangd-ao-encontrar-as-headers-do-c-tipo-iostream/</link>
-        <guid isPermaLink="true">http://ivanlopes.eng.br/2023/08/02/resolvendo-o-problema-do-clangd-ao-encontrar-as-headers-do-c-tipo-iostream/</guid>
+        <link>http://localhost:4000/2023/08/02/resolvendo-o-problema-do-clangd-ao-encontrar-as-headers-do-c-tipo-iostream/</link>
+        <guid isPermaLink="true">http://localhost:4000/2023/08/02/resolvendo-o-problema-do-clangd-ao-encontrar-as-headers-do-c-tipo-iostream/</guid>
         
         
       </item>
@@ -94,8 +94,8 @@ forma tranquila e eficiente!&lt;/p&gt;
 &lt;p&gt;Caso o link simbólico não exista ou aponte para um local inexistente, o comando retornará um erro informando que o link é inválido.&lt;/p&gt;
 </description>
         <pubDate>Sat, 22 Jul 2023 02:15:07 -0300</pubDate>
-        <link>http://ivanlopes.eng.br/2023/07/22/mostrar-a-localizacao-de-um-arquivo-referenciado-por-um-link-simbolico/</link>
-        <guid isPermaLink="true">http://ivanlopes.eng.br/2023/07/22/mostrar-a-localizacao-de-um-arquivo-referenciado-por-um-link-simbolico/</guid>
+        <link>http://localhost:4000/2023/07/22/mostrar-a-localizacao-de-um-arquivo-referenciado-por-um-link-simbolico/</link>
+        <guid isPermaLink="true">http://localhost:4000/2023/07/22/mostrar-a-localizacao-de-um-arquivo-referenciado-por-um-link-simbolico/</guid>
         
         
       </item>
@@ -118,8 +118,8 @@ forma tranquila e eficiente!&lt;/p&gt;
 
 </description>
         <pubDate>Fri, 13 Dec 2019 17:15:23 -0300</pubDate>
-        <link>http://ivanlopes.eng.br/jekyll/update/2019/12/13/welcome-to-jekyll.html</link>
-        <guid isPermaLink="true">http://ivanlopes.eng.br/jekyll/update/2019/12/13/welcome-to-jekyll.html</guid>
+        <link>http://localhost:4000/jekyll/update/2019/12/13/welcome-to-jekyll.html</link>
+        <guid isPermaLink="true">http://localhost:4000/jekyll/update/2019/12/13/welcome-to-jekyll.html</guid>
         
         
         <category>jekyll</category>
@@ -297,8 +297,8 @@ vim: set ts=4 sw=4 tw=64 ft=markdown:
 --&gt;
 </description>
         <pubDate>Thu, 21 Nov 2019 17:15:23 -0300</pubDate>
-        <link>http://ivanlopes.eng.br/paper/presentation/2019/11/21/image-processing-for-vision-and-graphics.html</link>
-        <guid isPermaLink="true">http://ivanlopes.eng.br/paper/presentation/2019/11/21/image-processing-for-vision-and-graphics.html</guid>
+        <link>http://localhost:4000/paper/presentation/2019/11/21/image-processing-for-vision-and-graphics.html</link>
+        <guid isPermaLink="true">http://localhost:4000/paper/presentation/2019/11/21/image-processing-for-vision-and-graphics.html</guid>
         
         
         <category>Paper</category>
