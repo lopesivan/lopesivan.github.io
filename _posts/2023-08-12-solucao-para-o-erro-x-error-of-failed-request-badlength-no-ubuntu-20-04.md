@@ -1,5 +1,5 @@
 ---
-title: "Solução para o erro "X Error of failed request: BadLength" no Ubuntu 20.04"
+title: "Solução para o erro \"X Error of failed request: BadLength\" no Ubuntu 20.04"
 date: 2023-08-12 07:17:19 -0300
 layout: post
 author: Ivan Lopes
