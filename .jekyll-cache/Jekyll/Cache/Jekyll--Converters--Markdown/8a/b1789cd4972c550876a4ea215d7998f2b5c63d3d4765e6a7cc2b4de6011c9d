@@ -1,0 +1,58 @@
+I"R<h2 id="solução-para-o-erro-x-error-of-failed-request-badlength-no-ubuntu-2004">Solução para o erro “X Error of failed request: BadLength” no Ubuntu 20.04</h2>
+
+<p>Se você está enfrentando o erro “X Error of failed request: BadLength” no Ubuntu 20.04, pode seguir os passos abaixo para tentar resolver o problema. Este erro geralmente está relacionado a problemas com a biblioteca libXft, então a solução envolve recompilar e atualizar essa biblioteca.</p>
+
+<h3 id="passo-1-baixar-e-compilar-a-biblioteca-libxft">Passo 1: Baixar e Compilar a Biblioteca libXft</h3>
+
+<ol>
+  <li>
+    <p>Abra um terminal.</p>
+  </li>
+  <li>
+    <p>Execute os seguintes comandos para baixar, compilar e instalar a biblioteca libXft:</p>
+  </li>
+</ol>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>wget https://xorg.freedesktop.org/releases/individual/lib/libXft-2.3.8.tar.xz
+<span class="nb">tar</span> <span class="nt">-xf</span> libXft-2.3.8.tar.xz
+<span class="nb">cd </span>libXft-2.3.8/
+./configure
+make
+<span class="nb">sudo </span>make <span class="nb">install</span>
+</code></pre></div></div>
+
+<h3 id="passo-2-atualizar-os-links-da-biblioteca-libxft">Passo 2: Atualizar os Links da Biblioteca libXft</h3>
+
+<ol>
+  <li>Após a instalação, execute os seguintes comandos para atualizar os links da biblioteca libXft:</li>
+</ol>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">cd</span> /usr/local/lib
+<span class="nb">ls </span>libXft.so
+
+<span class="nb">ls</span> <span class="nt">-l</span> /usr/lib/x86_64-linux-gnu/libXft.so.2
+<span class="nb">ls</span> <span class="nt">-l</span> libXft.so
+
+<span class="nb">sudo rm</span> /usr/lib/x86_64-linux-gnu/libXft.so.2
+<span class="nb">sudo ln</span> <span class="nt">-s</span> <span class="nv">$PWD</span>/libXft.so.2.3.8 /usr/lib/x86_64-linux-gnu/libXft.so.2
+</code></pre></div></div>
+
+<h3 id="passo-3-verificar-a-solução">Passo 3: Verificar a Solução</h3>
+
+<ol>
+  <li>
+    <p>Após concluir todos os passos acima, reinicie o sistema ou faça o logoff e logon novamente.</p>
+  </li>
+  <li>
+    <p>Tente executar o aplicativo que estava gerando o erro “X Error of failed request: BadLength” para verificar se o problema foi resolvido.</p>
+  </li>
+</ol>
+
+<p>Essa solução envolve a atualização da biblioteca libXft para uma versão mais recente, que pode corrigir possíveis problemas de compatibilidade ou bugs que estejam causando o erro. Lembre-se de que manipular bibliotecas do sistema pode ter implicações de compatibilidade e estabilidade, portanto, execute esses passos com cuidado.</p>
+
+<blockquote>
+  <p>Nota: Sempre que você estiver realizando mudanças no sistema, é uma boa prática fazer um backup ou ter um ponto de restauração para evitar problemas caso algo dê errado.</p>
+</blockquote>
+
+<p>Esperamos que essa solução resolva o erro “X Error of failed request: BadLength” no seu sistema Ubuntu 20.04. Se o problema persistir ou se você tiver outras dúvidas, não hesite em buscar assistência em fóruns de suporte ou comunidades Linux.</p>
+:ET
