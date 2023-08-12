@@ -6,8 +6,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Solução para o erro "X Error of failed request: BadLength" no Ubuntu 20.04</title>
-  <meta name="description" content="Solução para o erro “X Error of failed request: BadLength” no Ubuntu 20.04">
+  <title>Solução para o erro X Error of failed request: BadLength no Ubuntu 20.04</title>
+  <meta name="description" content="Solução para o erro X Error of failed request: BadLength no Ubuntu 20.04">
 
   <link rel="stylesheet" href="/css/main.css">
   <link rel="canonical" href="http://localhost:4000/2023/08/12/solucao-para-o-erro-x-error-of-failed-request-badlength-no-ubuntu-20-04/">
@@ -57,16 +57,16 @@
         <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title" itemprop="name headline">Solução para o erro "X Error of failed request: BadLength" no Ubuntu 20.04</h1>
+    <h1 class="post-title" itemprop="name headline">Solução para o erro X Error of failed request: BadLength no Ubuntu 20.04</h1>
     <p class="post-meta"><time datetime="2023-08-12T07:17:19-03:00" itemprop="datePublished">Aug 12, 2023</time> • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">Ivan Lopes</span></span></p>
   </header>
 
   <div class="post-content" itemprop="articleBody">
-    <h2 id="solução-para-o-erro-x-error-of-failed-request-badlength-no-ubuntu-2004">Solução para o erro “X Error of failed request: BadLength” no Ubuntu 20.04</h2>
+    <h1 id="solução-para-o-erro-x-error-of-failed-request-badlength-no-ubuntu-2004">Solução para o erro X Error of failed request: BadLength no Ubuntu 20.04</h1>
 
 <p>Se você está enfrentando o erro “X Error of failed request: BadLength” no Ubuntu 20.04, pode seguir os passos abaixo para tentar resolver o problema. Este erro geralmente está relacionado a problemas com a biblioteca libXft, então a solução envolve recompilar e atualizar essa biblioteca.</p>
 
-<h3 id="passo-1-baixar-e-compilar-a-biblioteca-libxft">Passo 1: Baixar e Compilar a Biblioteca libXft</h3>
+<h2 id="passo-1-baixar-e-compilar-a-biblioteca-libxft">Passo 1: Baixar e Compilar a Biblioteca libXft</h2>
 
 <ol>
   <li>
@@ -85,7 +85,7 @@ make
 <span class="nb">sudo </span>make <span class="nb">install</span>
 </code></pre></div></div>
 
-<h3 id="passo-2-atualizar-os-links-da-biblioteca-libxft">Passo 2: Atualizar os Links da Biblioteca libXft</h3>
+<h2 id="passo-2-atualizar-os-links-da-biblioteca-libxft">Passo 2: Atualizar os Links da Biblioteca libXft</h2>
 
 <ol>
   <li>Após a instalação, execute os seguintes comandos para atualizar os links da biblioteca libXft:</li>
@@ -101,7 +101,7 @@ make
 <span class="nb">sudo ln</span> <span class="nt">-s</span> <span class="nv">$PWD</span>/libXft.so.2.3.8 /usr/lib/x86_64-linux-gnu/libXft.so.2
 </code></pre></div></div>
 
-<h3 id="passo-3-verificar-a-solução">Passo 3: Verificar a Solução</h3>
+<h2 id="passo-3-verificar-a-solução">Passo 3: Verificar a Solução</h2>
 
 <ol>
   <li>

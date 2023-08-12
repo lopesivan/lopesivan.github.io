@@ -6,17 +6,17 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 12 Aug 2023 07:27:16 -0300</pubDate>
-    <lastBuildDate>Sat, 12 Aug 2023 07:27:16 -0300</lastBuildDate>
+    <pubDate>Sat, 12 Aug 2023 07:28:57 -0300</pubDate>
+    <lastBuildDate>Sat, 12 Aug 2023 07:28:57 -0300</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
     
       <item>
-        <title>Solução para o erro &quot;X Error of failed request: BadLength&quot; no Ubuntu 20.04</title>
-        <description>&lt;h2 id=&quot;solução-para-o-erro-x-error-of-failed-request-badlength-no-ubuntu-2004&quot;&gt;Solução para o erro “X Error of failed request: BadLength” no Ubuntu 20.04&lt;/h2&gt;
+        <title>Solução para o erro X Error of failed request: BadLength no Ubuntu 20.04</title>
+        <description>&lt;h1 id=&quot;solução-para-o-erro-x-error-of-failed-request-badlength-no-ubuntu-2004&quot;&gt;Solução para o erro X Error of failed request: BadLength no Ubuntu 20.04&lt;/h1&gt;
 
 &lt;p&gt;Se você está enfrentando o erro “X Error of failed request: BadLength” no Ubuntu 20.04, pode seguir os passos abaixo para tentar resolver o problema. Este erro geralmente está relacionado a problemas com a biblioteca libXft, então a solução envolve recompilar e atualizar essa biblioteca.&lt;/p&gt;
 
-&lt;h3 id=&quot;passo-1-baixar-e-compilar-a-biblioteca-libxft&quot;&gt;Passo 1: Baixar e Compilar a Biblioteca libXft&lt;/h3&gt;
+&lt;h2 id=&quot;passo-1-baixar-e-compilar-a-biblioteca-libxft&quot;&gt;Passo 1: Baixar e Compilar a Biblioteca libXft&lt;/h2&gt;
 
 &lt;ol&gt;
   &lt;li&gt;
@@ -35,7 +35,7 @@ make
 &lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;make &lt;span class=&quot;nb&quot;&gt;install&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;h3 id=&quot;passo-2-atualizar-os-links-da-biblioteca-libxft&quot;&gt;Passo 2: Atualizar os Links da Biblioteca libXft&lt;/h3&gt;
+&lt;h2 id=&quot;passo-2-atualizar-os-links-da-biblioteca-libxft&quot;&gt;Passo 2: Atualizar os Links da Biblioteca libXft&lt;/h2&gt;
 
 &lt;ol&gt;
   &lt;li&gt;Após a instalação, execute os seguintes comandos para atualizar os links da biblioteca libXft:&lt;/li&gt;
@@ -51,7 +51,7 @@ make
 &lt;span class=&quot;nb&quot;&gt;sudo ln&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-s&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$PWD&lt;/span&gt;/libXft.so.2.3.8 /usr/lib/x86_64-linux-gnu/libXft.so.2
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;h3 id=&quot;passo-3-verificar-a-solução&quot;&gt;Passo 3: Verificar a Solução&lt;/h3&gt;
+&lt;h2 id=&quot;passo-3-verificar-a-solução&quot;&gt;Passo 3: Verificar a Solução&lt;/h2&gt;
 
 &lt;ol&gt;
   &lt;li&gt;
