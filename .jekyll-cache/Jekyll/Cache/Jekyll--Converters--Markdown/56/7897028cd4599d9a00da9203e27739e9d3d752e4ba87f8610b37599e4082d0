@@ -1,2 +1,0 @@
-I"<p>Para mostrar a localização de um arquivo referenciado por um link simbólico no Linux, você pode usar o comando <code class="highlighter-rouge">readlink</code>. Esse comando retorna o nome do arquivo ao qual o link simbólico aponta. A sintaxe geral é a seguinte:</p>
-:ET
