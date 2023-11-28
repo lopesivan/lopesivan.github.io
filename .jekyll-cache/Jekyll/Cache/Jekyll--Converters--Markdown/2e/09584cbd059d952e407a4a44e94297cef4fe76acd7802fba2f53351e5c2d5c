@@ -1,0 +1,8 @@
+I"�<p>Se você deseja obter apenas os nomes dos arquivos que foram
+alterados, adicionados, removidos, etc., sem informações
+adicionais, você pode usar <code class="highlighter-rouge">git status</code> com as opções
+<code class="highlighter-rouge">--porcelain</code> ou <code class="highlighter-rouge">--short</code> junto com comandos do shell para
+extrair somente a parte relevante. Aqui está como você pode
+fazer isso em um terminal Unix-like, como Bash no Linux ou
+macOS:</p>
+:ET

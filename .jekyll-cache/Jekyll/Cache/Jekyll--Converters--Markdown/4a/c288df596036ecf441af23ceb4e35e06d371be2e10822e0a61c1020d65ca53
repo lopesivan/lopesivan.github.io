@@ -1,0 +1,20 @@
+I"�<p>Se você deseja obter apenas os nomes dos arquivos que foram
+alterados, adicionados, removidos, etc., sem informações
+adicionais, você pode usar <code class="highlighter-rouge">git status</code> com as opções
+<code class="highlighter-rouge">--porcelain</code> ou <code class="highlighter-rouge">--short</code> junto com comandos do shell para
+extrair somente a parte relevante. Aqui está como você pode
+fazer isso em um terminal Unix-like, como Bash no Linux ou
+macOS:</p>
+
+<div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git status <span class="nt">--porcelain</span> | <span class="nb">awk</span> <span class="s1">'{print $2}'</span>
+</code></pre></div></div>
+
+<p>Ou, se você quiser considerar espaços no nome dos arquivos, você
+pode usar <code class="highlighter-rouge">cut</code>:</p>
+
+<div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git status <span class="nt">--porcelain</span> | <span class="nb">cut</span> <span class="nt">-c4-</span>
+</code></pre></div></div>
+
+<p>Esses comandos irão listar apenas os caminhos dos arquivos que
+foram alterados.</p>
+:ET
